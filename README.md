@@ -5,9 +5,14 @@
 
 ## prereqs
 
-You must have a nim available - if you don't:
+You must have `nim` installed - if you don't:
 ```bash
 curl https://nim-lang.org/choosenim/init.sh -sSf | sh
+```
+
+Additionally you must have [arraymancer](https://github.com/mratsim/Arraymancer) installed.
+```
+nimble install arraymancer
 ```
 
 ## example
